@@ -1,6 +1,7 @@
 ---
 layout: markdown
 title: Get Involved
+background: beach_cliffs
 ---
 
 ## TODO for MVP
