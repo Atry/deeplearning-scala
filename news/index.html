@@ -9,13 +9,12 @@ layout: default
 			{% for post in paginator.posts %}
 			<div class="row">
 				<section class="8u -2u">
-					<!--<a href="{{ site.prefix }}{{ post.url }}" class="image full"><img src="/assets/{{ post.featured }}" alt=""></a>-->
 					<header>
 						<h2>{{ post.title }}</h2>
 					</header>
 					<strong>{{ post.date | date_to_long_string }}</strong>
 					{{ post.excerpt }}
-					<a href="{{ site.prefix }}{{ post.url }}" class="button button-style1">Read More</a>
+					<a href="{{ site.github.url }}{{ post.url }}" class="button button-style1">Read More</a>
 				</section>
 			</div>
 			{% endfor %}
